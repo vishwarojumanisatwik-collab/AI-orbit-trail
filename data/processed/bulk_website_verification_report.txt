@@ -1,0 +1,30 @@
+AI ORBIT - BULK WEBSITE VERIFICATION
+============================================================
+
+Total records: 613
+Resolved provider records: 585
+Unique domains checked: 77
+
+VERIFICATION RESULTS
+------------------------------------------------------------
+Verified: 453
+Blocked / access restricted: 109
+Manual review: 1
+Failed: 1
+Timeout: 2
+HTTP / request errors: 19
+Invalid URL: 0
+Blocked third-party domain: 0
+Third-party redirect: 0
+Not checked: 28
+
+DATA QUALITY POLICY
+------------------------------------------------------------
+Only safely resolved provider domains were subjected to HTTP verification.
+Provider domains were verified once per unique domain and cached across model records.
+OpenRouter, Models.dev, Hugging Face and example.com remain blocked from official website output.
+HTTP 403/401/429 responses are classified as blocked rather than incorrectly treated as invalid websites.
+Redirects to a different domain are sent to manual review or rejected when they land on a known third-party domain.
+
+Output: C:\Users\vmk\Documents\ai-orbit-trial\data\processed\bulk_models_website_verified.csv
+Report: C:\Users\vmk\Documents\ai-orbit-trial\data\processed\bulk_website_verification_report.txt

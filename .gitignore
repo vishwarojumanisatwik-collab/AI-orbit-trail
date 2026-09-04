@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+credentials.json
+service-account.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+.venv/
+.env
+__pycache__/
+*.pyc
+logs/

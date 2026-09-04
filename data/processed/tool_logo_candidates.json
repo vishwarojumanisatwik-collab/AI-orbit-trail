@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Junie by JetBrains",
+    "official_url": "https://junie.jetbrains.com/",
+    "logo_url": "https://junie.jetbrains.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "AskSpot",
+    "official_url": "https://askspot.io/",
+    "logo_url": "https://askspot.io/wp-content/themes/askspot/assets/img/favicon.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Supernormal App",
+    "official_url": "https://www.supernormal.com/",
+    "logo_url": "https://framerusercontent.com/images/mp3uguLBIY6bg3PiFGyKLx8z1w.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Kyukoma AI Manga Colorizer",
+    "official_url": "https://www.kyukoma.com/",
+    "logo_url": "https://www.kyukoma.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "Habidu - Your AI Daily Coach",
+    "official_url": "https://www.habidu.com/",
+    "logo_url": "https://www.habidu.com/assets/og-image.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Teable",
+    "official_url": "https://teable.io/",
+    "logo_url": "https://teable.ai/favicon.png",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "Kvorum",
+    "official_url": "https://kvorum.ai/",
+    "logo_url": "https://kvorum.ai/static/favicon.svg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Everest | AI Scheduling Assistant",
+    "official_url": "https://everest.ag/",
+    "logo_url": "https://everest.ag/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "OpenMusicPrompt",
+    "official_url": "https://openmusicprompt.com/",
+    "logo_url": "https://openmusicprompt.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "MiDash AI",
+    "official_url": "https://www.midash.ai/",
+    "logo_url": "https://www.midash.ai/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "Alias Robotics Cybersecurity AI",
+    "official_url": "https://aliasrobotics.com/",
+    "logo_url": "https://aliasrobotics.com/favicon.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Articos",
+    "official_url": "https://www.articos.com/",
+    "logo_url": "https://www.articos.com/favicon.svg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "AltNotes",
+    "official_url": "https://getaltnotes.com/",
+    "logo_url": "https://getaltnotes.com/assets/favicon-32.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Ankon AI",
+    "official_url": "https://ankonai.com/",
+    "logo_url": "https://ankonai.com/icon.svg?icon.3i7rxqssxyxk1.svg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Reducto",
+    "official_url": "https://reducto.ai/",
+    "logo_url": "https://reducto.ai/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "Peris.ai",
+    "official_url": "https://www.peris.ai/",
+    "logo_url": "https://www.peris.ai/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "Claude",
+    "official_url": "https://www.anthropic.com/",
+    "logo_url": "https://www.anthropic.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_logo_registry"
+  },
+  {
+    "name": "ChatGPT",
+    "official_url": "https://chatgpt.com/",
+    "logo_url": null,
+    "logo_verified": false,
+    "logo_source": null
+  },
+  {
+    "name": "DeepSeek",
+    "official_url": "https://www.deepseek.com/",
+    "logo_url": "https://www.deepseek.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Cursor",
+    "official_url": "https://cursor.com/",
+    "logo_url": "https://cursor.com/marketing-static/favicon-light.ico",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Z.ai",
+    "official_url": "https://z.ai/",
+    "logo_url": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Pounce",
+    "official_url": "https://use-pounce.com/",
+    "logo_url": "https://use-pounce.com/assets/favicon.png",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "River",
+    "official_url": "https://river.ai/",
+    "logo_url": "https://river.ai/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "Mejorar - AI Photo Enhancer",
+    "official_url": "https://mejorarcalidaddeimagen.ai/",
+    "logo_url": "https://mejorarcalidaddeimagen.ai/favicon.svg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "AnimePhotoGen",
+    "official_url": "https://animephotogen.com/",
+    "logo_url": "https://animephotogen.com/favicon.ico",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  },
+  {
+    "name": "LettsGroup",
+    "official_url": "https://letts.group/",
+    "logo_url": "https://letts.group/assets/og-default-C2XC0BgG.jpg",
+    "logo_verified": true,
+    "logo_source": "official_website"
+  }
+]

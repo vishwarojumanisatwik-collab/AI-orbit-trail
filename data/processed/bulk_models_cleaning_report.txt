@@ -1,0 +1,23 @@
+AI Orbit - Bulk Model Cleaning Report
+==================================================
+
+Input rows: 615
+Output rows: 613
+Columns: 41
+Rows removed for missing model name: 0
+Duplicate model identities removed: 2
+
+Unique companies/providers: 112
+
+Website provenance:
+  Candidate official: 0
+  Third-party reference: 551
+  Placeholder: 62
+  Missing: 0
+
+Data-quality policy:
+Third-party discovery/provider URLs are preserved
+as source_reference_url.
+They are NOT treated as official websites.
+Placeholder domains such as example.com are removed
+from official_website_candidate.

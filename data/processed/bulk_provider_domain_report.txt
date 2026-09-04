@@ -1,0 +1,97 @@
+AI ORBIT - BULK PROVIDER DOMAIN RESOLUTION
+============================================================
+
+Original rows: 613
+Input rows: 613
+Original providers: 112
+Canonical providers: 97
+
+Resolved records: 451
+Unresolved records: 156
+Unsafe mappings: 6
+Missing providers: 0
+
+Resolution rate: 73.57%
+
+Unresolved providers: 66
+
+UNRESOLVED PROVIDERS
+------------------------------------------------------------
+2noise: 1 record(s)
+aion-labs: 4 record(s)
+aisingapore: 1 record(s)
+alpha-vllm: 1 record(s)
+anthracite-org: 1 record(s)
+arcee-ai: 5 record(s)
+assemblyai: 1 record(s)
+azure: 1 record(s)
+baai: 2 record(s)
+baidu: 1 record(s)
+bytedance: 1 record(s)
+bytedance-seed: 18 record(s)
+clova-ai: 1 record(s)
+cognitivecomputations: 1 record(s)
+coqui: 1 record(s)
+deepgram: 1 record(s)
+deepreinforce: 4 record(s)
+genmo: 1 record(s)
+gryphe: 1 record(s)
+haiper: 1 record(s)
+hpc-ai-tech: 1 record(s)
+huawei: 1 record(s)
+hugging-face: 2 record(s)
+ideogram: 1 record(s)
+inception: 2 record(s)
+inclusionai: 2 record(s)
+jina-ai: 2 record(s)
+kuaishou: 2 record(s)
+kwaipilot: 2 record(s)
+leonardo-ai: 1 record(s)
+liquid: 1 record(s)
+luma-ai: 1 record(s)
+mancer: 1 record(s)
+megvii: 1 record(s)
+meituan: 1 record(s)
+midjourney: 1 record(s)
+mixedbread-ai: 1 record(s)
+morph: 2 record(s)
+nomic-ai: 1 record(s)
+nousresearch: 4 record(s)
+perceptron: 1 record(s)
+playground-ai: 1 record(s)
+playht: 1 record(s)
+poolside: 4 record(s)
+rekaai: 2 record(s)
+relace: 2 record(s)
+sakana: 2 record(s)
+sakana-ai: 3 record(s)
+sao10k: 3 record(s)
+sarvam-ai: 2 record(s)
+sber-ai: 1 record(s)
+sdaia: 1 record(s)
+shanghai-ai-lab: 1 record(s)
+shengshu-technology: 1 record(s)
+stepfun: 3 record(s)
+swiss-ai: 2 record(s)
+tencent: 7 record(s)
+thedrummer: 3 record(s)
+trendyol: 1 record(s)
+udio: 1 record(s)
+undi95: 1 record(s)
+upstage: 4 record(s)
+voyage-ai: 2 record(s)
+x-ai: 7 record(s)
+xiaomi: 6 record(s)
+z-ai: 16 record(s)
+
+Unsafe provider identities: 1
+
+UNSAFE / BLOCKED PROVIDERS
+------------------------------------------------------------
+openrouter: 6 record(s)
+
+DATA QUALITY POLICY
+------------------------------------------------------------
+Unverified providers are left unresolved rather than being assigned speculative official domains.
+OpenRouter, Models.dev and Hugging Face are treated as discovery/reference platforms, not first-party model-provider websites.
+Community/model accounts are intentionally unresolved when a reliable official organization cannot be established.

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Junie by JetBrains",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "AskSpot",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Mejorar - AI Photo Enhancer",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Supernormal App",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "AnimePhotoGen",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Kyukoma AI Manga Colorizer",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Habidu - Your AI Daily Coach",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Teable",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Kvorum",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Everest | AI Scheduling Assistant",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "OpenMusicPrompt",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "MiDash AI",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Alias Robotics Cybersecurity AI",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "LettsGroup",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Articos",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "AltNotes",
+    "description": "",
+    "source_quality": "limited",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Pounce",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Peris.ai",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Ankon AI",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Reducto",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "River",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Claude",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "ChatGPT",
+    "description": "",
+    "source_quality": "unavailable",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "DeepSeek",
+    "description": "",
+    "source_quality": "limited",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Cursor",
+    "description": "",
+    "source_quality": "rich",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  },
+  {
+    "name": "Z.ai",
+    "description": "",
+    "source_quality": "limited",
+    "generated_by": "openai",
+    "model": "gpt-5.6-luna",
+    "description_generated": false
+  }
+]

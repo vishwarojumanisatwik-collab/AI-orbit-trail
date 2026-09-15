@@ -45,6 +45,7 @@ BLOCKED_DOMAINS = {
     "openrouter.ai",
     "models.dev",
     "huggingface.co",
+    "github.com",
     "example.com",
 }
 
@@ -503,8 +504,7 @@ def main() -> None:
     # ------------------------------------------------------------------------
 
     acceptable_statuses = {
-        "verified",
-        "blocked",
+    "verified",
     }
 
     accepted_mask = (

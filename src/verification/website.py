@@ -1,10 +1,8 @@
 from __future__ import annotations
 
-import re
 from urllib.parse import urlparse
 
 import httpx
-from rapidfuzz.fuzz import ratio
 
 from src.config import REQUEST_TIMEOUT, USER_AGENT
 from src.verification.providers import provider_domain_matches
@@ -22,12 +20,17 @@ def _get_domain(url: str) -> str:
 
 
 def _normalize_text(value: str) -> str:
-    """Normalize text for entity comparison."""
+    """Normalize text for exact entity comparison."""
 
     value = value.lower().strip()
-    value = re.sub(r"[^a-z0-9]+", " ", value)
 
-    return " ".join(value.split())
+    result = []
+
+    for char in value:
+        if char.isalnum():
+            result.append(char)
+
+    return "".join(result)
 
 
 def domain_matches_entity(
@@ -35,11 +38,17 @@ def domain_matches_entity(
     url: str,
 ) -> bool:
     """
-    Check whether the website domain plausibly matches
-    the entity name.
+    Check whether the root domain clearly matches the entity name.
+
+    This deliberately avoids fuzzy matching because a similar-looking
+    domain is not sufficient proof that a website is official.
     """
 
     domain = _get_domain(url)
+
+    if not domain:
+        return False
+
     domain_name = domain.split(".")[0]
 
     normalized_entity = _normalize_text(entity_name)
@@ -48,26 +57,15 @@ def domain_matches_entity(
     if not normalized_entity or not normalized_domain:
         return False
 
-    entity_compact = normalized_entity.replace(" ", "")
-    domain_compact = normalized_domain.replace(" ", "")
-
-    if domain_compact in entity_compact:
-        return True
-
-    if entity_compact in domain_compact:
-        return True
-
-    score = ratio(
-        entity_compact,
-        domain_compact,
-    )
-
-    return score >= 70
+    return normalized_entity == normalized_domain
 
 
 def check_website(url: str) -> dict:
     """
-    Check whether a candidate official website is reachable.
+    Check whether a candidate website successfully responds.
+
+    Redirects are followed so that verification can be performed
+    against the final destination.
     """
 
     headers = {
@@ -106,23 +104,14 @@ def check_website(url: str) -> dict:
                 result["notes"] = "Website returned HTTP 200."
 
             elif response.status_code in {
-                301,
-                302,
-                307,
-                308,
-            }:
-                result["reachable"] = True
-                result["verification_status"] = "redirected"
-                result["notes"] = "Website redirected."
-
-            elif response.status_code in {
                 401,
                 403,
                 429,
             }:
                 result["verification_status"] = "blocked"
                 result["notes"] = (
-                    "Website appears to restrict automated access."
+                    "Website restricts automated access. "
+                    "Official verification is not possible."
                 )
 
             else:
@@ -148,56 +137,60 @@ def verify_entity_website(
     candidate_url: str,
 ) -> dict:
     """
-    Combine technical reachability and entity/domain matching.
+    Perform strict official website verification.
 
-    Provider mappings are considered when the product name
-    differs from the company/domain name.
+    A website is verified only when:
+    1. The final destination returns HTTP 200.
+    2. The final domain clearly matches the entity name, or
+       the entity has an explicitly known provider-domain mapping.
+
+    Reachability alone is never treated as official verification.
     """
 
     result = check_website(candidate_url)
 
-    technically_valid = result["verification_status"] in {
-        "reachable",
-        "redirected",
-        "blocked",
-    }
+    if result["verification_status"] != "reachable":
+        result["verification_status"] = "unverified"
 
-    if not technically_valid:
-        result["verification_status"] = "failed"
         result["notes"] = (
             result["notes"]
-            or "Website failed technical verification."
+            or "Website did not pass technical verification."
         )
 
         return result
 
+    final_url = result["final_url"] or candidate_url
+
     direct_match = domain_matches_entity(
         entity_name,
-        candidate_url,
+        final_url,
     )
 
     provider_match = provider_domain_matches(
         entity_name,
-        candidate_url,
+        final_url,
     )
 
-    if direct_match or provider_match:
+    if direct_match:
         result["verification_status"] = "verified"
-
-        if provider_match and not direct_match:
-            result["notes"] = (
-                "Verified through known provider domain mapping."
-            )
-        else:
-            result["notes"] = (
-                "Verified through entity/domain matching."
-            )
-
-    else:
-        result["verification_status"] = "manual_review"
         result["notes"] = (
-            "Website is reachable but the domain does not "
-            "clearly match the entity name or known provider."
+            "Verified through exact entity/domain match."
         )
+
+        return result
+
+    if provider_match:
+        result["verification_status"] = "verified"
+        result["notes"] = (
+            "Verified through known provider domain mapping."
+        )
+
+        return result
+
+    result["verification_status"] = "manual_review"
+    result["notes"] = (
+        "Website is reachable, but the final domain does not "
+        "clearly match the entity and no known provider mapping exists."
+    )
 
     return result

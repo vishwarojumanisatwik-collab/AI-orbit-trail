@@ -2,21 +2,21 @@ AI ORBIT - BULK WEBSITE VERIFICATION
 ============================================================
 
 Total records: 613
-Resolved provider records: 585
-Unique domains checked: 77
+Resolved provider records: 533
+Unique domains checked: 37
 
 VERIFICATION RESULTS
 ------------------------------------------------------------
-Verified: 453
-Blocked / access restricted: 109
-Manual review: 1
-Failed: 1
-Timeout: 2
-HTTP / request errors: 19
+Verified: 417
+Blocked / access restricted: 103
+Manual review: 0
+Failed: 0
+Timeout: 0
+HTTP / request errors: 13
 Invalid URL: 0
 Blocked third-party domain: 0
 Third-party redirect: 0
-Not checked: 28
+Not checked: 80
 
 DATA QUALITY POLICY
 ------------------------------------------------------------

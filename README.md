@@ -1,4 +1,4 @@
-﻿# AIOrbit — AI Models Dataset
+# AIOrbit — AI Models Dataset
 
 ## Dataset Summary
 
@@ -7,10 +7,10 @@
 - Duplicate model names: 0
 - Missing model names: 0
 - Missing descriptions: 0
-- Verified official websites: 453
-- Models without a verified official website: 51
+- Verified official websites: 417
+- Models without a verified official website: 196
 - Provider identities resolved: 585
-- Verified/retained official logo URLs: 238
+- Verified/retained official logo URLs: 375
 
 ## Pipeline
 
